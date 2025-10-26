@@ -36,11 +36,13 @@ Lakukan "New Flutter Project" dan seterusnya hingga dapat melakukan coding.
 ### 1. pubspec.yaml
 Tambahkan fitur DB Hive,
 dalam "dependencies":
-hive_flutter: ^1.1.0
-path_provider: ^2.1.1
+- hive_flutter: ^1.1.0
+- path_provider: ^2.1.1
+
 dan "dev_dependencies":
-hive_generator: ^2.0.1
-build_runner: ^2.3.3
+- hive_generator: ^2.0.1
+- build_runner: ^2.3.3
+
 Setelah ini, lakukan 'pub get'.
 ### 2. lib/
 Membuat 3 sub-directory: models, pages, widgets.
